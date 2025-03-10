@@ -34,21 +34,26 @@ function timeDifference(alarmTime) {
   alarmTime.length === 4 
     ? inputHour = Number(alarmTime.slice(0, 1))
     : inputHour = Number(alarmTime.slice(0, 2));
-
   alarmTime.length === 4
     ? inputMin = Number(alarmTime.slice(2))
     : inputMin = Number(alarmTime.slice(3))
-
   const inputTimeInMins = (inputHour * 60) + inputMin;
 
   let currentHour = new Date().getHours();
   let currentMin = new Date().getMinutes();
-
   const currentTimeInMins = (currentHour * 60) + currentMin
 
-  console.log(inputTimeInMins - currentTimeInMins);
-
-  // return `${Math.floor(difference / 60)} hours and ${difference % 60} minutes of sleep`;
+  if (inputTimeInMins < currentTimeInMins) {
+    return "Please enter a time ahead of current time"
+  } else if (inputTimeInMins === currentTimeInMins) {
+    return "No sleep time!"
+  } else {
+    const difference = inputTimeInMins - currentTimeInMins
+    return `${Math.floor(difference / 60)} hours and ${difference % 60} minutes of sleep`;
+  }
 }
 
-console.log(timeDifference("5:20"));
+console.log(timeDifference("10:55"));
+console.log(timeDifference("14:20"));
+console.log(timeDifference("08:57"));
+console.log(timeDifference("10:30"));
