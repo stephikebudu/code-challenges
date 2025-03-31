@@ -8,7 +8,7 @@ function tribonacci(arr, n) {
   let trib = arr.slice();
   let nextEl;
 
-  // use loop to generate access the three elements to add and push the sum as the next element, ensure the length of final array accounts for initial number of elements in array
+  // use loop to generate and access the three elements to add and push the sum as the next element, ensure the length of final array accounts for initial number of elements in array
   for (i = 0; i < n - arr.length; i++) {
     nextEl = trib[i] + trib[i+1] + trib[i+2];
     trib.push(nextEl);
