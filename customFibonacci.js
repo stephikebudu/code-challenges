@@ -11,7 +11,7 @@ function customFib(arr, length) {
   let fib = arr.slice();
   let nextEl;
 
-  for (i = 0; i < length; i++) {
+  for (i = 0; i < length - arr.length; i++) {
     nextEl = fib[i] + fib[i+1];
     fib.push(nextEl);
   }
