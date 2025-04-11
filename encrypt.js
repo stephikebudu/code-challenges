@@ -31,8 +31,7 @@ function encrypt(str) {
   return encryptedStrArr.join(" ")
 }
 
-// console.log(encrypt("Hello to the freeCodeCamp Discord"));
-// console.log(encrypt("Steph needs to come up with harder challenges"));
-// console.log(encrypt("Maybe if she spent less time on TikTok she could"));
-// console.log(encrypt("To her"));
-console.log(encrypt("To her"))
+console.log(encrypt("Hello to the freeCodeCamp Discord"));
+console.log(encrypt("Steph needs to come up with harder challenges"));
+console.log(encrypt("Maybe if she spent less time on TikTok she could"));
+console.log(encrypt("To her"));
