@@ -1,3 +1,10 @@
+/*
+PSEUDOCODE
+1. Write function with input n that repeats a set of strings as far as n > 0
+2. Make sure to incl. condition to terminate loop
+3. Make sure to include newline character in song
+*/
+
 function sing(n) {
   let song = "";
   while (n > 0) {
