@@ -23,3 +23,10 @@ def pricify(price):
     new_price = math.ceil(price)
 
   return new_price
+
+print(pricify(4.2))
+print(pricify(4.25))
+print(pricify(4.3))
+print(pricify(4.6))
+print(pricify(4.75))
+print(pricify(4.8))
