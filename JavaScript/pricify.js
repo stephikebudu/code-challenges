@@ -25,3 +25,10 @@ function pricify(price){
 
   return newPrice;
 }
+
+console.log(pricify(4.2));
+console.log(pricify(4.25));
+console.log(pricify(4.3));
+console.log(pricify(4.6));
+console.log(pricify(4.75));
+console.log(pricify(4.8));
