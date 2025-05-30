@@ -10,3 +10,16 @@ check if cent amount is more than 0.2 and less than 0.8
 else
   round up price
 '''
+
+def pricify(price):
+  dollar_amount = math.floor(price)
+  cent_amount = round(price - dollar_amount, 1)
+
+  if cent_amount < 0.3:
+    new_price = dollar_amount
+  elif cent_amount > 0.2 and cent_amount < 0.8:
+    new_price = dollar_amount + 0.5
+  else:
+    new_price = math.ceil(price)
+
+  return new_price
