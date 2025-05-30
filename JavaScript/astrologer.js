@@ -16,7 +16,7 @@ function findZodiac(n) {
   }
 
   let yearDiff = n - 1924;
-  
+
   let animalIndex = yearDiff % animals.length;
   let animal = animals[animalIndex];
 
