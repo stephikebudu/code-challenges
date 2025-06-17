@@ -3,7 +3,7 @@ determine the characters in the base from the base passed as arg
 enusre num is in caps
 check if all characters in num exists in base
   if the character exists, add "good" to result var
-  else add "bad" to reesult var
+  else add "bad" to result var
 finally check if result var contains "bad"
   return true if "bad" substring does not exist
   else return false
