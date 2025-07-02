@@ -1,7 +1,7 @@
 import re
 
 '''
-develop regex to check for th octet value
+develop regex to check for the octet value
 check if string matches regex and return True or False depending on result
 '''
 
