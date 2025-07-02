@@ -51,16 +51,6 @@ function dieGame(arr) {
       newArr = arr.filter(arrVal => arrVal !== arr[i])
 
       // console.log(points, "inside if isThree conditional")
-      // Check sub array if remaining elements are either 1 or 5 and add points accordingly
-      if (newArr[0] === 1 && newArr[1] === 1) {
-        points += 200;
-      } else if (newArr[0] === 5 && newArr[1] === 5) {
-        points += 100;
-      } else if (newArr[0] === 1 || newArr[1] === 1) {
-        points += 100;
-      } else if (newArr[0] === 5 || newArr[1] === 5) {
-        points += 50;
-      }
 
       arr = newArr; // Update the original array to the new array without the 3 occurences
 
@@ -95,16 +85,7 @@ function dieGame(arr) {
         newArr.push(arr[i])
       }
 
-      // Check sub array if remaining elements are either 1 or 5 and add points accordingly
-      if (newArr[0] === 1 && newArr[1] === 1) {
-        points += 200;
-      } else if (newArr[0] === 5 && newArr[1] === 5) {
-        points += 100;
-      } else if (newArr[0] === 1 || newArr[1] === 1) {
-        points += 100;
-      } else if (newArr[0] === 5 || newArr[1] === 5) {
-        points += 50;
-      }
+      arr = newArr; // Update the original array to the new array without the 3 occurences
 
       totalPoints += points;
     } else {
@@ -112,18 +93,33 @@ function dieGame(arr) {
         case 1:
           points = 100;
           break;
-          case 5:
+        case 5:
             points = 50;
             break;
-          default:
+        default:
             points = 0;
       }
+
+      newArr = arr.filter(arrVal => arrVal !== arr[i]);
+      arr = newArr;
 
       totalPoints += points;
     }
     // console.log(points, "inside for loop")
   }
   // console.log(points, "outside loop")
+
+  // Check sub array if remaining elements are either 1 or 5 and add points accordingly
+  if (newArr[0] === 1 && newArr[1] === 1) {
+    points += 200;
+  } else if (newArr[0] === 5 && newArr[1] === 5) {
+    points += 100;
+  } else if (newArr[0] === 1 || newArr[1] === 1) {
+    points += 100;
+  } else if (newArr[0] === 5 || newArr[1] === 5) {
+    points += 50;
+  }
+
   // totalPoints += points;
 
   console.log(totalPoints);
