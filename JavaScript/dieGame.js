@@ -125,14 +125,14 @@ function dieGame(arr) {
   console.log(totalPoints);
 }
 
-console.log(dieGame([2, 3, 4, 6, 2])); // returns 0
-console.log(dieGame([1, 2, 3, 4, 6])); // returns 100
-console.log(dieGame([5, 2, 3, 4, 6])); // returns 50
-console.log(dieGame([1, 2, 3, 4, 5])); // returns 150
-console.log(dieGame([1, 1, 2, 3, 6])); // returns 200
-console.log(dieGame([2, 2, 3, 4, 6])); // returns 0
-console.log(dieGame([3, 3, 2, 4, 6])); // returns 0
-console.log(dieGame([4, 4, 2, 3, 6]));  // returns 0
+// console.log(dieGame([2, 3, 4, 6, 2])); // returns 0
+// console.log(dieGame([1, 2, 3, 4, 6])); // returns 100
+// console.log(dieGame([5, 2, 3, 4, 6])); // returns 50
+// console.log(dieGame([1, 2, 3, 4, 5])); // returns 150
+// console.log(dieGame([1, 1, 2, 3, 6])); // returns 200
+// console.log(dieGame([2, 2, 3, 4, 6])); // returns 0
+// console.log(dieGame([3, 3, 2, 4, 6])); // returns 0
+// console.log(dieGame([4, 4, 2, 3, 6]));  // returns 0
 console.log(dieGame([5, 5, 2, 3, 6])); // returns 100
 console.log(dieGame([1, 1, 1, 1, 4])); // returns 1100
 console.log(dieGame([1, 1, 1, 3, 3])); // returns 1000
