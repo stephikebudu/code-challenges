@@ -3,12 +3,16 @@ import re
 '''
 PSEUDOCODE
 Split the string
-Check if first part of str is a num
-  If yes, check if it is between 1 and 8
-  Then ensure second part of string is a letter between a and h
-Else it should be a str and second part should be a num
-Validate and register each part of the input string if its even or odd
-Finally, return black for && and odd or even && even
+Check if first part of str is a letter
+  If yes, check if its in range a-h
+    If yes, validate and ensure 2nd part of str is number and in range 1-8
+  Else return error message
+Else check if first part of str is a number
+  If yes, check if its in range 1-8
+    If yes, validate and ensure 2nd part of str is alphabet and in range a-h
+  Else return error message
+Determine if each part of str is even or odd
+Finally, return black for even and even or odd and odd. Else return white
 
 CHESS BOARD
     a  b  c  d  e  f  g  h
