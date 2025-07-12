@@ -48,4 +48,21 @@ def check_chess_board(str):
   if letter == "no value" or number == "no value":
     return "Please enter one valid letter (a-h) for column and one valid number (1-8) for row on the board"
 
-  pass
+  if re.search(r"b|d|f|h", letter):
+    letter_val = "even"
+  else:
+    letter_val = "odd"
+
+  number_val = number % 2 == 0 and "even" or "odd"
+
+  if letter_val == "even" and number_val == "even" or letter_val == "odd" and number_val == "odd":
+    board_color = "black"
+  else:
+    board_color = "white"
+
+  return board_color
+
+
+print(check_chess_board("a8")) # white
+print(check_chess_board("c5")) # black
+print(check_chess_board("f2")) # black
