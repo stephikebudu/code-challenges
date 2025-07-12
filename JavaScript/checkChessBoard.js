@@ -6,7 +6,7 @@ Check if first part of str is a num
   Then ensure second part of string is a letter between a and h
 Else check it should be a str and second part should be a num
 Validate and register each part of the input string if its even or odd
-Finally, return black for && and odd or even && even
+Finally, return black for even && even or odd  && odd. Else return  white
 
 CHESS BOARD
     a  b  c  d  e  f  g  h
