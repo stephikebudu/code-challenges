@@ -8,3 +8,10 @@ function prChecker(arr, avg) {
 
   return minQuality;
 }
+
+console.log(prChecker([1,1,1], 2)); // returns 5
+console.log(prChecker([1,1,1,1], 2)); // returns 6
+console.log(prChecker([50,60,70,80,90], 70)); // returns 70
+console.log(prChecker([50,50,50,50,50], 70)); // returns 170
+console.log(prChecker([25,30,15,80], 100)); // returns 350
+console.log(prChecker([86,77,48,52,90,73,44,99], 85)); // returns 196
