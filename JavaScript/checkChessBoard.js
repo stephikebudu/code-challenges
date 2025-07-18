@@ -33,7 +33,7 @@ function checkChessBoard(str) {
   let letterVal;
   let color;
 
-  if (str.length > 2) {
+  if (str.length !== 2) {
     return "Please enter one letter for column and one letter for row";
   }
 
