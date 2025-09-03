@@ -50,3 +50,13 @@ function emailInterpreter(str) {
   //return new string
   console.log(newStr)
 }
+
+// Test cases
+console.log(emailInterpreter("")); // "Haha! Nice day for fishin', ain't it?"
+console.log(emailInterpreter("RAGE")); // "I am livid."
+console.log(emailInterpreter("RAGERAGERAGE")); // I am really really livid.
+console.log(emailInterpreter("BURN")); // You get a pay cut.
+console.log(emailInterpreter("BURNBURNBURN")); // You get a pay cut, and you get a pay cut, and you get a pay cut.
+console.log(emailInterpreter("RAGERAGEBURNRAGEBURN")); // I am really really livid. You get a pay cut, and you get a pay cut.
+console.log(emailInterpreter("asdfqwe")); // Haha! Nice day for fishin', ain't it?
+console.log(emailInterpreter("ASDRAGEZXCVBURNQWERAGERAGEBURNYTUIOPRAGEBURNMNBBURNRAGEBURN")); // I am really really really really livid. You get a pay cut, and you get a pay cut, and you get a pay cut, and you get a pay cut, and you get a pay cut.
