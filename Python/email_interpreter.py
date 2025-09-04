@@ -45,7 +45,7 @@ def email_interpreter(str):
 
 # Test cases:
 print(email_interpreter("")) # "Haha! Nice day for fishin', ain't it?"
-print(email_interpreter("RAGERAGERAGE")) # "I am livid."
+print(email_interpreter("RAGE")) # "I am livid."
 print(email_interpreter("RAGERAGERAGE")) # I am really really livid.
 print(email_interpreter("BURN")) # You get a pay cut.
 print(email_interpreter("BURNBURNBURN")) # You get a pay cut, and you get a pay cut, and you get a pay cut.
