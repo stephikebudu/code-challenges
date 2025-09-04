@@ -36,19 +36,27 @@ function emailInterpreter(str) {
     str = newStr;
   }
 
-  let rageStatement = rageCounter === 1 ? "I am livid." : `I am ${"really ".repeat(rageCounter - 1).trim()} livid.`;
-  let burnStatement = burnCounter === 1 ? "You get a pay cut" : burnCounter === 2 ? "You get a pay cut, and you get a pay cut." : `You get a pay cut, ${"and you get a pay cut, ".repeat(burnCounter - 2).trim()} and you get a pay cut.`
+  //reassign new string
+  newStr = ""
 
   //IF both are 0 return appropriate string
   //ELSE construct the statement according to no of RAGE or BURN
   if (rageCounter === 0 && burnCounter === 0) {
     newStr += "Haha! Nice day for fishin', ain't it?";
+  } else if (burnCounter === 0 && rageCounter > 0) {
+    let rageStatement = rageCounter === 1 ? "I am livid." : `I am ${"really ".repeat(rageCounter - 1).trim()} livid.`;
+    newStr += rageStatement
+  } else if (rageCounter === 0 && burnCounter > 0) {
+    let burnStatement = burnCounter === 1 ? "You get a pay cut" : burnCounter === 2 ? "You get a pay cut, and you get a pay cut." : `You get a pay cut, ${"and you get a pay cut, ".repeat(burnCounter - 2).trim()} and you get a pay cut.`;
+    newStr += burnStatement;
   } else {
-    newStr += rageStatement + " " + burnStatement
+    let rageStatement = rageCounter === 1 ? "I am livid." : `I am ${"really ".repeat(rageCounter - 1).trim()} livid.`;
+    let burnStatement = burnCounter === 1 ? "You get a pay cut" : burnCounter === 2 ? "You get a pay cut, and you get a pay cut." : `You get a pay cut, ${"and you get a pay cut, ".repeat(burnCounter - 2).trim()} and you get a pay cut.`;
+    newStr += rageStatement + " " + burnStatement;
   }
 
   //return new string
-  console.log(newStr)
+  return newStr;
 }
 
 // Test cases
