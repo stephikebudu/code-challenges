@@ -7,3 +7,24 @@ Pseudocode
   5. if it does, add it to the array
 6. return total number of items in array
 */
+
+function squaresWithThree(num) {
+  if (num < 1 || num > 10000) {
+    return "Please enter a number between 1 - 10000 (both inclusive)"
+  }
+
+  let totalSquaresWithThree = [];
+  for (let i = 1; i <= num; i++) {
+    if (String(i * i).includes("3")) {
+      totalSquaresWithThree.push(i);
+    }
+  }
+
+  return totalSquaresWithThree.length;
+}
+
+console.log(squaresWithThree(1));
+console.log(squaresWithThree(10));
+console.log(squaresWithThree(100));
+console.log(squaresWithThree(1000));
+console.log(squaresWithThree(10000));
