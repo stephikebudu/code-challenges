@@ -1,6 +1,6 @@
 # Code Challenges
 ## Start Here
-This repo hosts [Stephany](stephikebudu.vercel.app/about)'s solutions to the weekly code challenges posted in the [YWC Code Club](#the-ywc-code-club)
+This repo hosts [Stephany](https://stephikebudu.vercel.app/about)'s solutions to the weekly code challenges posted in the [YWC Code Club](#the-ywc-code-club)
 
 ## Architeecture
 I have organized each challenge into folders, numbered according to the sequence in which they've been posted in the code club's discord channel. Each folder contains a `CHALLENGE.md` file which contains the problem qustion and the file(s) for my solution to the problem. You can find th pseudocode at the top of th file to better undertand my approach/solution to the problem. I also try to document the code, lol I lied, I actually almost never document my code except I absolutely need it to stop "thinking all over the place". I should probably do better code documentation, but hey all programmers don't enjoy documenting code...right? At least, I hope so.
