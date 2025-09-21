@@ -28,3 +28,8 @@ function milePace(miles, time) {
 
   return avgTime;
 }
+
+console.log(milePace(3, "24:00")); // should return "08:00"
+console.log(milePace(1, "06:45")); // should return "06:45"
+console.log(milePace(2, "07:00")); // should return "03:30"
+console.log(milePace(26.2, "120:35")); // should return "04:36"

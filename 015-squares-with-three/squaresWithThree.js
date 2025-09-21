@@ -23,8 +23,8 @@ function squaresWithThree(num) {
   return totalSquaresWithThree.length;
 }
 
-console.log(squaresWithThree(1));
-console.log(squaresWithThree(10));
-console.log(squaresWithThree(100));
-console.log(squaresWithThree(1000));
-console.log(squaresWithThree(10000));
+console.log(squaresWithThree(1)); // returns 0
+console.log(squaresWithThree(10)); // returns 1
+console.log(squaresWithThree(100)); // returns 19
+console.log(squaresWithThree(1000)); // returns 326
+console.log(squaresWithThree(10000)); // returns 4531
