@@ -22,3 +22,8 @@ def mile_pace(mile, time):
     avg_time = avg_min + ":" + avg_sec
 
   return avg_time
+
+print(mile_pace(3, "24:00")) # should return "08:00"
+print(mile_pace(1, "06:45")) # should return "06:45"
+print(mile_pace(2, "07:00")) # should return "03:30"
+print(mile_pace(26.2, "120:35")) # should return "04:36"
