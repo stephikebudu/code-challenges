@@ -20,3 +20,8 @@ def find_target(num_list, target):
     result = [first_num_i, second_num_i]
 
   return result
+
+print(find_target([2, 7, 11, 15], 9)) # returns [0, 1]
+print(find_target([3, 2, 4, 5], 6)) # returns [1, 2]
+print(find_target([1, 3, 5, 6, 7, 8], 15)) # returns [4, 5]
+print(find_target([1, 3, 5, 7], 14)) # returns "Target not found"
