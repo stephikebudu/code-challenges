@@ -63,3 +63,13 @@ function addTime(start, duration, day = "Not given") {
 
   return answer;
 }
+
+console.log(addTime('3:30 PM', '2:12'));
+console.log(addTime('11:55 AM', '3:12'));
+console.log(addTime('2:59 AM', '24:00'));
+console.log(addTime('11:59 PM', '24:05'));
+console.log(addTime('8:16 PM', '466:02'));
+console.log(addTime('3:30 PM', '2:12', 'Monday'));
+console.log(addTime('2:59 AM', '24:00', 'Saturday'));
+console.log(addTime('11:59 PM', '24:05', 'Wednesday'));
+console.log(addTime('8:16 PM', '466:02', 'Tuesday'));
