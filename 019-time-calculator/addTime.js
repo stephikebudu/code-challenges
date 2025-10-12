@@ -1,6 +1,6 @@
 /*
 Pseudocode
-1. Declare constants - days of the week and day to minutes variablees.
+1. Declare constants - days of the week and day to minutes variables.
 2. Transform given start time from 12 hour format to 24 hour format to diffeerentiate between before and after noon
 3. Transform given start time and duration to minutes format.
 4. Calc total time = start time in minutes + duration time to minutes
@@ -11,6 +11,8 @@ Pseudocode
 9. Calc new day by adding days later to given day index in days of the week array. RM to check if total is less than max index and divide by 7 days a week when necessary
 10. Use new time hour, new time minute, days later and before/after noon variables
 */
+
+// TODO: Implement defensive algorithm design and ensure midnight is returned as "12" not "0"
 
 function addTime(start, duration, day = "Not given") {
   const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
