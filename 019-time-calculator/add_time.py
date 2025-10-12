@@ -66,3 +66,14 @@ def add_time(start, duration, day="Not given"):
     answer = "I'm unaccounted for!"
 
   return answer
+
+
+print(add_time('3:30 PM', '2:12'))
+print(add_time('11:55 AM', '3:12'))
+print(add_time('2:59 AM', '24:00'))
+print(add_time('11:59 PM', '24:05'))
+print(add_time('8:16 PM', '466:02'))
+print(add_time('3:30 PM', '2:12', 'Monday'))
+print(add_time('2:59 AM', '24:00', 'Saturday'))
+print(add_time('11:59 PM', '24:05', 'Wednesday'))
+print(add_time('8:16 PM', '466:02', 'Tuesday'))
