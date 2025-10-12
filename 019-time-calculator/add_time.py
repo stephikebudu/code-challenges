@@ -15,7 +15,7 @@ Pseudocode
 11. Use new time hour, new time minute, days later and before/after noon variables
 '''
 
-# TODO: Implement defensive algorithm design
+# TODO: Implement defensive algorithm design and document, add docblock and code doc
 def add_time(start, duration, day="Not given"):
   days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
   day_to_mins = 24 * 60

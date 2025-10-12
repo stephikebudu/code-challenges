@@ -12,7 +12,7 @@ Pseudocode
 10. Use new time hour, new time minute, days later and before/after noon variables
 */
 
-// TODO: Implement defensive algorithm design and ensure midnight is returned as "12" not "0"
+// TODO: Implement defensive algorithm design, add docblock, add code doc and ensure midnight is returned as "12" not "0"
 
 function addTime(start, duration, day = "Not given") {
   const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
