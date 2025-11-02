@@ -14,5 +14,9 @@ function getLongestWord(str) {
     }
   }
 
-  console.log(longest);
+  return longest;
 }
+
+getLongestWord("coding is fun.");
+getLongestWord("Coding challenges are fun and educational.");
+getLongestWord("This sentence has multiple long words.");
