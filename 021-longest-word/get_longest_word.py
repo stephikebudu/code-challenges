@@ -13,3 +13,7 @@ def get_longest_word(sentence):
     if len(word) > len(longest):
       longest = word
   print(longest)
+
+get_longest_word("coding is fun")
+get_longest_word("Coding challenges are fun and educational.")
+get_longest_word("This sentence has multiple long words.")
