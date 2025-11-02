@@ -3,3 +3,16 @@
 2. Split sentence into words by whitespace
 3. Check for and return longeest word in sentennce
 */
+
+function getLongestWord(str) {
+  let refined = str.includes(".") ?  str.split(".") : str;
+  let words = refined[0].split(" ");
+  let longest = words[0];
+  for (let i = 1; i < words.length; i++) {
+    if (words[i].length > longest.length) {
+      longest = words[i];
+    }
+  }
+
+  console.log(longest);
+}
