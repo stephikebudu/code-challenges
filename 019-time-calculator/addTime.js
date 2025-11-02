@@ -15,7 +15,9 @@ Pseudocode
 // TODO: Implement defensive algorithm design, add docblock, add code doc and ensure midnight is returned as "12" not "0"
 
 function addTime(start, duration, day = "Not given") {
+  const startIsValid = /^((0?[1-9]|1[0-2]):([0-5][0-9]) ?([AaPp][Mm]))$/.test(String(start));
   const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  const dayIsValid = day != "Not given" && days.include(day);
   const dayToMins = 24 * 60;
   const [startTime, startDayMode] = start.split(" ");
   const [startHour, startMin] = startTime.split(":");
