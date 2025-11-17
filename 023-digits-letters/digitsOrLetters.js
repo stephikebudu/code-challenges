@@ -14,3 +14,10 @@ function digitsOrLetters(str) {
   let answer = letters.length > nums.length ? "letters" : nums.length > letters.length ? "digits" : "tie"
   console.log(answer);
 }
+
+digitsOrLetters("abc123");
+digitsOrLetters("a1b2c3d");
+digitsOrLetters("1a2b3c4");
+digitsOrLetters("abc123!@#DEF");
+digitsOrLetters("H3110 W0R1D");
+digitsOrLetters("P455W0RD");
