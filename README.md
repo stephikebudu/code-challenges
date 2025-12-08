@@ -14,14 +14,15 @@ YWC is an abbreviation for [Young Women Code](https://www.youngwomencode.org), a
 I post challenges and host live solution calls weekly in the YWC Code Club, where I explain my thought process and do a walk-through of my code as well as assist with any blockers community members have. We also discuss code, career and chat sometimes. Discord is currently our primary platform. Click [here](https://docs.google.com/forms/d/e/1FAIpQLSdUlALCTv1_wpGtADNvQEqiadn22_PGEkBRyppXtP_tSgEgYg/viewform) to join the YWC Code Club.
 
 ## Break Information
-This section addresses your concern for "silence" in the code club, we're an accountable team - me & you.  
-Break 1: 17th - 21st March 2025 | Sick  
-Break 2: 14th - 18th April 2025 | Intense Work Week  
-Break 3: 21st - 25th April 2025 | Easter Break  
-Break 4: 12th - 16th May 2025 | Intense Work Week  
-Break 5: 23rd - 27th June | Bad Memory (completely forgot, don't know how, please don't ask)  
-Break 6: 21st - 25th July | Birthday Week Break  
-Break 7: August 2025 | NYSC Orientation Camp  
+This section addresses your concern for "silence" in the code club, we're an accountable team - me & you.
+Break 1: 17th - 21st March 2025 | Sick
+Break 2: 14th - 18th April 2025 | Intense Work Week
+Break 3: 21st - 25th April 2025 | Easter Break
+Break 4: 12th - 16th May 2025 | Intense Work Week
+Break 5: 23rd - 27th June | Bad Memory (completely forgot, don't know how, please don't ask)
+Break 6: 21st - 25th July | Birthday Week Break
+Break 7: August 2025 | NYSC Orientation Camp
+Break 8: 24th - 28th November, 1st - 5th December 2025 | Professional Exam Prep
 
 I always drop an announcement beforehand if I'll be absent, else, expect a channel-wide ping to join the live solution call at least 30 minutes before we go live. The solution call typically lasts 5 to 10 minutes.
 
