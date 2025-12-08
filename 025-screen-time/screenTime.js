@@ -20,3 +20,11 @@ function tooMuchScreenTime(arr) {
 
   return answer;
 }
+
+console.log(tooMuchScreenTime([1, 2, 3, 4, 5, 6, 7]));
+console.log(tooMuchScreenTime([7, 8, 8, 4, 2, 2, 3]));
+console.log(tooMuchScreenTime([5, 6, 6, 6, 6, 6, 6]));
+console.log(tooMuchScreenTime([1, 2, 3, 11, 1, 3, 4]));
+console.log(tooMuchScreenTime([1, 2, 3, 10, 2, 1, 0]));
+console.log(tooMuchScreenTime([3, 3, 5, 8, 8, 9, 4]));
+console.log(tooMuchScreenTime([3, 9, 4, 8, 5, 7, 6]));
