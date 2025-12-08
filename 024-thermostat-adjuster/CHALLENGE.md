@@ -14,3 +14,4 @@
 - `adjustThermostat(100, 99.9)` should return `"cool"`.
 - `adjustThermostat(0.0, 0.0)` should return `"hold"`.
 
+*Credit: [freeCodeCamp Learning Platform](https://www.freecodecamp.org/learn/)*
