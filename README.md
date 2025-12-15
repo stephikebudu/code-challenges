@@ -19,7 +19,7 @@ Break 1: 17th - 21st March 2025 | Sick\
 Break 2: 14th - 18th April 2025 | Intense Work Week\
 Break 3: 21st - 25th April 2025 | Easter Break\
 Break 4: 12th - 16th May 2025 | Intense Work Week\
-Break 5: 23rd - 27th June | Bad Memory (completely forgot, don't know how, please don't ask)\
+Break 5: 23rd - 27th June | Busy Mind (completely forgot, don't know how, please don't ask)\
 Break 6: 21st - 25th July | Birthday Week Break\
 Break 7: August 2025 | NYSC Orientation Camp\
 Break 8: 24th - 28th November, 1st - 5th December 2025 | Professional Exam Prep
