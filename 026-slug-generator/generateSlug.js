@@ -11,3 +11,9 @@ function generateSlug(str) {
   let slug = cleanStr.replace(notAllowed, "").split(" ").join(joiner)
   return slug;
 }
+
+console.log(generateSlug("helloWorld"));
+console.log(generateSlug("hello world!"));
+console.log(generateSlug(" hello-world "));
+console.log(generateSlug("hello world"));
+console.log(generateSlug(" ?H^3-1*1]0! W[0%R#1]D "));
