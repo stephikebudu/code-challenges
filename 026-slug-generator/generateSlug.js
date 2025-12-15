@@ -3,3 +3,11 @@
 2. Filter characters with regex
 3. Convert whitespace character to "%20"
 */
+
+function generateSlug(str) {
+  const notAllowed = /[^a-zA-Z0-9\s]/g;
+  const joiner = "%20";
+  let cleanStr = str.toLowerCase().trim();
+  let slug = cleanStr.replace(notAllowed, "").split(" ").join(joiner)
+  return slug;
+}
